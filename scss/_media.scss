@@ -1,0 +1,238 @@
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+
+@media screen and (max-width: 1243px) {
+
+  .main-banner {
+    .container {
+
+
+      .article-main-banner {
+        max-width: 500px;
+
+        article {
+          h1 {
+            font-size: 50px;
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1244px) {
+  .first-card {
+    .container {
+
+      .card-nub-one {
+        margin-bottom: -35px;
+      }
+
+      flex-direction: column;
+      align-items: center;
+
+      .col-1 {
+        margin-bottom: 20px;
+      }
+
+      .col-2 {
+        .iphone-img-card-three {
+          display: inline-block;
+          max-width: 405px;
+          margin-bottom: 42px;
+
+          .non-responsive {
+            display: none;
+          }
+          .responsive {
+            display: block;
+          }
+
+
+
+          img {
+            width: 100%;
+            display: inline-block;
+            background-size: inherit;
+          }
+        }
+
+        margin-bottom: 20px;
+        max-width: 588px;
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1179px) {
+
+  .main-banner {
+    .container {
+      .wrapper-for-carousel {
+        .block-nub-one {
+          display: flex;
+
+          .banner-iphone-pic {
+            align-items: center;
+          }
+
+          .article-main-banner {
+            max-width: 400px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1108px) {
+  .main-banner {
+    .container {
+      .article-main-banner {
+        max-width: 400px;
+
+        article {
+          h1 {
+            font-size: 40px;
+            line-height: 59px;
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  .main-banner {
+    .container {
+      .article-main-banner {
+        max-width: 400px;
+
+        article {
+          h1 {
+            font-size: 40px;
+            line-height: 59px;
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+
+  .main-banner {
+
+
+
+    .container {
+
+      .wrapper-for-carousel {
+        display: none;
+      }
+      padding-right: 56px;
+      align-items: center;
+      height: 80vh;
+
+      .article-main-banner {
+        max-width: 588px;
+
+        article {
+          h1 {
+            color: white;
+            font-size: 58px;
+          }
+
+          p {
+            color: white;
+            font-size: 16px;
+          }
+
+          .btn-main-banner {
+            color: white;
+            border: 1px solid white;
+          }
+        }
+      }
+
+      flex-wrap: wrap;
+      background-color: transparent;
+      background-image: url(../images/iphones-background.png);
+      background-size: cover;
+
+
+      .banner-iphone-pic {
+        display: none;
+      }
+
+    }
+  }
+
+  .header-nav {
+    padding: 15px 18px 15px 15px;
+
+    .container {
+
+
+
+      .header-navigation {
+        ul {
+          display: none;
+        }
+      }
+
+      .right-nav-bar {
+        display: none;
+      }
+
+
+      .menu-button {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-nav {
+    .container {
+      .menu {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+     #card-one {
+       margin-bottom: 10px;
+     }
+  }
+}
