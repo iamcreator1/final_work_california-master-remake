@@ -365,3 +365,17 @@
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .special-offer {
+    .container {
+      .wrapper-for-content {
+        article {
+          p {
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+}
