@@ -8,6 +8,9 @@
 
 
   .container {
+    .art-mobile {
+      display: none;
+    }
 
     .wrapper-for-carousel {
 
@@ -122,6 +125,9 @@
 
 
     .col-3 {
+      .responsive {
+        display: none;
+      }
 
       .link {
         position: absolute;
@@ -423,7 +429,7 @@
       .block {
 
         max-width: 413px;
-        padding: 41px 71px 0;
+        padding: 41px 22px 0;
         box-sizing: border-box;
         text-align: center;
         background: #F8F9FA;

@@ -4,6 +4,10 @@
   margin-bottom: 28px;
 }
 
+.main-banner .container .art-mobile {
+  display: none;
+}
+
 .main-banner .container .wrapper-for-carousel .block-nub-one {
   border-radius: 32px;
   display: flex;
@@ -107,6 +111,10 @@
   background-color: #FFFFFF;
   filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
   padding: 114px 0 0;
+}
+
+.first-card .container .col-3 .responsive {
+  display: none;
 }
 
 .first-card .container .col-3 .link {
@@ -370,7 +378,7 @@
 
 .offers .container .wrapper-for-blocks .block {
   max-width: 413px;
-  padding: 41px 71px 0;
+  padding: 41px 22px 0;
   box-sizing: border-box;
   text-align: center;
   background: #F8F9FA;
@@ -726,6 +734,7 @@ body {
 
 @media screen and (max-width: 1244px) {
   .first-card .container {
+    max-width: 588px;
     flex-direction: column;
     align-items: center;
   }
@@ -735,7 +744,21 @@ body {
   .first-card .container .col-1 {
     margin-bottom: 20px;
   }
+  .first-card .container .col-3 {
+    width: 100%;
+  }
+  .first-card .container .col-3 .iphone-img-card-three {
+    background-size: inherit;
+  }
+  .first-card .container .col-3 .iphone-img-card-three .non-responsive {
+    display: none;
+  }
+  .first-card .container .col-3 .iphone-img-card-three .responsive {
+    align-items: center;
+    display: inline-block;
+  }
   .first-card .container .col-2 {
+    width: 100%;
     margin-bottom: 20px;
     max-width: 588px;
   }
@@ -797,13 +820,54 @@ body {
 
 @media screen and (max-width: 992px) {
   .main-banner .container {
+    text-align: left;
     padding-right: 56px;
     align-items: center;
-    height: 80vh;
+    height: 87vh;
     flex-wrap: wrap;
     background-color: transparent;
     background-image: url(../images/iphones-background.png);
     background-size: cover;
+  }
+  .main-banner .container .art-mobile {
+    display: inline-block;
+    max-width: 556px;
+    margin-top: 145px;
+    margin-left: 43px;
+  }
+  .main-banner .container .art-mobile h1 {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: white;
+    margin-bottom: 19px;
+  }
+  .main-banner .container .art-mobile p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    margin-bottom: 55px;
+  }
+  .main-banner .container .art-mobile .btn-main-banner {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: white;
+    width: 170px;
+    padding: 14px 53px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 200px;
+    display: inline-block;
+    margin-bottom: 127px;
   }
   .main-banner .container .wrapper-for-carousel {
     display: none;
@@ -828,6 +892,15 @@ body {
   }
   .header-nav {
     padding: 15px 18px 15px 15px;
+  }
+  .header-nav .container .top-nav .menu a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    text-decoration: none;
   }
   .header-nav .container .header-navigation ul {
     display: none;
@@ -877,6 +950,12 @@ body {
 @media screen and (max-width: 644px) {
   .shop-cards .container .cards {
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1255px) {
+  .block {
+    margin-bottom: 20px;
   }
 }
 
