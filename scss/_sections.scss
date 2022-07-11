@@ -86,6 +86,7 @@
 
 .first-card {
   padding: 75px 10px 0;
+  margin-bottom: 70px;
 
   text-align: center;
 
@@ -330,6 +331,7 @@
 
 .shop-cards {
   padding: 111px 10px 28px;
+  margin-bottom: 70px;
 
   .container {
     .cards {
@@ -337,11 +339,14 @@
       list-style: none;
       display: flex;
       justify-content: space-between;
+
       .card {
         max-width: 302px;
+
         img {
           margin-bottom: 10px;
         }
+
         .item_name {
           font-family: 'Readex Pro', sans-serif;
           font-style: normal;
@@ -363,7 +368,7 @@
         }
 
         .price {
-          font-family: 'Inter',sans-serif;
+          font-family: 'Inter', sans-serif;
           font-style: normal;
           font-weight: 400;
           font-size: 18px;
@@ -397,3 +402,209 @@
     }
   }
 }
+
+// ? section offer
+
+
+.offers {
+  padding-top: 42px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 28px;
+  margin-bottom: 70px;
+
+  .container {
+
+    .wrapper-for-blocks {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .block {
+
+        max-width: 413px;
+        padding: 41px 71px 0;
+        box-sizing: border-box;
+        text-align: center;
+        background: #F8F9FA;
+
+        h2 {
+          font-family: 'Readex Pro', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 17px;
+          text-align: center;
+          color: #000000;
+        }
+
+        p {
+          font-family: 'Readex Pro', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 35px;
+          text-align: center;
+          color: #000000;
+          margin-bottom: 30px;
+        }
+
+        a {
+          padding: 14px 63px;
+          border: 1px solid black;
+          border-radius: 200px;
+          text-decoration: none;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 22px;
+          text-align: center;
+          text-transform: capitalize;
+          color: #000000;
+          display: inline-block;
+          margin-bottom: 30px;
+
+
+        }
+      }
+    }
+
+
+    .h-shop-cards {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 52px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 9px;
+    }
+
+    .description_shop-cards {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 17px;
+      color: #000000;
+      text-align: center;
+      margin-bottom: 41px;
+    }
+
+
+
+  }
+}
+
+// ? section with picure-and desription
+
+.special-offer {
+  padding: 47px 10px 24px 18px;
+
+  .container {
+    text-align: center;
+
+    .see-all {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      text-transform: capitalize;
+      color: #000000;
+
+      &::after {
+        content: '';
+        background-image: url(../images/arrow-after.svg);
+        width: 30px;
+        height: 28px;
+        display: inline-block;
+        position: relative;
+        top: 4px;
+      }
+    }
+
+    .wrapper-for-content {
+      flex-wrap: wrap;
+      margin-bottom: 74px;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+
+      article {
+        max-width: 639px;
+        margin-top: 14px;
+
+        p {
+          &:not(:last-of-type) {
+            margin-bottom: 23px;
+          }
+
+          font-family: 'Inter',
+          sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 30px;
+          color: #000000;
+        }
+      }
+
+      .wrapper-for-content__img {
+
+        max-width: 620px;
+
+        img {
+          width: 100%;
+          display: inline-block;
+        }
+      }
+    }
+
+    h3 {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 52px;
+      text-align: center;
+      color: #000000;
+    }
+
+    .description-of-special-offer {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 17px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 56px;
+    }
+  }
+}
+
+// // ? looking section 
+// .looking-section {
+//   .container {
+//     text-align: center;
+//     h3 {
+//       font-family: 'Readex Pro',sans-serif;
+//       font-style: normal;
+//       font-weight: 400;
+//       font-size: 42px;
+//       line-height: 52px;
+//       text-align: center;
+//       color: #000000;
+//       margin-bottom: 15px;
+//     }
+
+    
+//     input {
+//       padding: 15px 476px 15px 16px;
+      
+//     }
+//   }
+// }

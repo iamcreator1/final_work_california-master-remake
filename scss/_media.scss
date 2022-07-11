@@ -236,3 +236,39 @@
      }
   }
 }
+
+@media screen and (max-width: 849px) {
+  .offers {
+    .container {
+      .wrapper-for-blocks {
+        .block {
+          margin-bottom: 20px;
+        }
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1302px) {
+  .special-offer {
+    .container {
+      .wrapper-for-content {
+        .wrapper-for-content__img {
+          margin-bottom: 30px;
+        }
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 644px) {
+  .shop-cards {
+    .container {
+      .cards {
+        justify-content: center;
+      }
+    }
+  }
+}
